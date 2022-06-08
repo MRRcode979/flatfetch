@@ -1,8 +1,9 @@
 # flatfetch
-
 flatfetch is sort of like a __wget__ rust rewrite that I made.
 
 It is kind of buggy so If you would like to make any changes I will accept them!
+
+Code written by Matteo Rosato
 
 ### Installation On Linux Or Mac
 
