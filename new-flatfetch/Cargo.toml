@@ -1,0 +1,23 @@
+[package]
+name = "flatfetch"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "flatfetch"
+
+[profile.dev]
+opt-level = 3               # Use slightly better optimizations.
+overflow-checks = false     # Disable integer overflow checks.
+
+[profile.release]
+strip = "debuginfo"
+
+[dependencies]
+clap = "3.1.5" 
+reqwest = { version = "0.11.9", features = ["stream"] }
+tokio = { version = "1.17.0", features = ["full"] }
+owo-colors = "3.2.0"
+indicatif = "0.16.2"
