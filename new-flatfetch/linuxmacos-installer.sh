@@ -10,6 +10,7 @@ install () {
 echo "Building..."
 cargo build
 echo "enter password:"
+sudo mkdir /usr/local/bin
 sudo mv target/debug/flatfetch /usr/local/bin
 echo "moved flatfetch into local bin directory."
 echo "installing man page..."
