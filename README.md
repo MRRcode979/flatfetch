@@ -1,6 +1,8 @@
 # flatfetch
 flatfetch is sort of like a __wget__ *Rust rewrite* that I made.
 
+you need to install rust to build it. Install rust here: <https://www.rust-lang.org/learn/get-started>
+
 It is kind of buggy so If you would like to make any changes I will accept them!
 
 Code written by Matteo Rosato
