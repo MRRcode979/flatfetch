@@ -5,7 +5,7 @@ echo "shreding flatfetch binary..."
 echo "enter password: "
 sudo shred -u /usr/local/bin/flatfetch
 echo "shreding man page..."
-sudo shred -u /usr/local/man/man1/flatfetch.1
+sudo shred -u /usr/local/man/man1/flatfetch.roff
 echo "refreshing mandb..."
 mandb
 echo "flatfetch has sucsessfully been deleted."
