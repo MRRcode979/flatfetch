@@ -49,5 +49,6 @@ There is currently no installer for windows.
 
 1. Add multithreading
 2. Fix buggy code 
-      
+3. Download files in chunks instead of all at once.
+        
 That is pretty much it! Hope you enjoy using flatfetch!
