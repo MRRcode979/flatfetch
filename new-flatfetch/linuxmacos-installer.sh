@@ -15,9 +15,9 @@ echo "moved flatfetch into local bin directory."
 echo "installing man page..."
 sudo mkdir /usr/local/man
 sudo mkdir /usr/local/man/man1
-sudo mv flatfetch.1 /usr/local/man/man1/
-sudo xz --compress /usr/local/man/man1/flatfetch.1
-echo "man page installed and compressed to '/usr/local/man/man1/flatfetch.1"
+sudo mv flatfetch.roff /usr/local/man/man1/
+sudo xz --compress /usr/local/man/man1/flatfetch.roff
+echo "man page installed and compressed to '/usr/local/man/man1/flatfetch.roff"
 echo "Refreshing man database..."
 mandb
 echo Finshed.
