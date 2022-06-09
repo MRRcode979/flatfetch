@@ -5,7 +5,7 @@ you need to install rust to build it. Install rust here: <https://www.rust-lang.
 
 It is kind of buggy so If you would like to make any changes I will accept them!
 
-Code written by Matteo Rosato
+Code written by Matteo Rosato (me)
 
 ### Installation On Linux Or Mac
 
