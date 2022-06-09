@@ -18,7 +18,7 @@
 .hy
 .SH NAME
 .PP
-flatfetch - download files from the web using a CLI!
+flatfetch - download files using a CLI!
 .SH SYNOPSIS
 .PP
 \f[B]flatfetch\f[R] [\f[I]URL\f[R]]\ [\f[I]flags\f[R]]
@@ -28,8 +28,7 @@ flatfetch - download files from the web using a CLI!
 \f[I]Note\f[R]: URL must begin with http:// https:// or tcp://
 .SH DESCRIPTION
 .PP
-flatfetch is a wget clone (sort of) written in Rust that downloads files
-from the web.
+flatfetch is a wget clone (sort of) written in Rust that downloads files.
 I have a plan for flatfetch to become a package manager in the future!
 If you are wondering why it is called flatfetch it is because I like
 flatpaks.
@@ -37,14 +36,14 @@ Running flatfetch without a URL will throw an error because the
 parameter URL is requiered
 .SH OPTIONS
 .TP
-\f[B]-h\f[R], \f[B]\[em]help\f[R]
+\f[B]-h\f[R], \f[B]\[em]-help\f[R]
 Displays directions on how to use.
 \f[B]-V\f[R], \f[B]\[em]version\f[R]
 Displays the software version.
 .SH BUGS
 .PP
 If the URL is invalid flatfetch wont exit with a exit code so if it
-dosen\[cq]t print \[lq]Downloading\&...\[rq] its a invalid URL
+dosen\[cq]t print anything its a invalid URL
 .SH COPYRIGHT
 .PP
 Copyright \[co] 2022 Matteo Rosato License GPLv3+: GNU GPL version 3 or
