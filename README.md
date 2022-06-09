@@ -1,5 +1,5 @@
 # flatfetch
-flatfetch is sort of like a __wget__ rust rewrite that I made.
+flatfetch is sort of like a __wget__ *Rust rewrite* that I made.
 
 It is kind of buggy so If you would like to make any changes I will accept them!
 
