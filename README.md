@@ -45,10 +45,20 @@ OPTIONS:
 
 There is currently no installer for windows.
      
+## Uninstall flatfetch:
+command 1: 
+
+chmod +x uninstaller.sh
+        
+command 2:
+        
+./uninstaller.sh
+
 ## TODO:
 
 1. Add multithreading
 2. Fix buggy code 
 3. Download files in chunks instead of all at once.
+4. add a Script to install flatfetch on windows
         
 That is pretty much it! Hope you enjoy using flatfetch!
