@@ -2,7 +2,7 @@
 
 mod request_sender;
 
-use crate::request_sender as send_request;
+use request_sender::*;
 use std::thread;
 use clap::{App, Arg};
 
