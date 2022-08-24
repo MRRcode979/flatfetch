@@ -24,5 +24,5 @@ This program comes with ABSOLUTELY NO WARRANTY; This is free software, and you a
       .get_matches();
       let _url = matches.value_of("URL").unwrap();
       
-      send_request::fetch_url(_url).await;
+      request_sender::fetch_url(_url).await;
 }
