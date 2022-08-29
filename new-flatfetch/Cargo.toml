@@ -8,7 +8,7 @@ edition = "2021"
 [[bin]]
 name = "flatfetch"
 
-[profile.dev]
+[profile.release]
 opt-level = 3               # Use slightly better optimizations.
 overflow-checks = false     # Disable integer overflow checks.
 
