@@ -8,7 +8,7 @@ echo "if there is an error, you probably dont have one of these installed."
 
 install () {
 echo "Building..."
-cargo build
+cargo build --release
 echo "enter password:"
 sudo mv target/debug/flatfetch /usr/bin
 echo "moved flatfetch into local bin directory."
