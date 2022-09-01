@@ -11,7 +11,7 @@ async fn main() {
 let matches = App::new("FlatFetch")
 // Might use yaml instead in future versions
       .version("0.1.0")
-      .author("MRRCode979 <matteorosato979@gmail.com>")
+      .author("Matteo Rosato (MRRCode979 on github) <matteorosato979@gmail.com>")
       .about("flatfetch is a wget clone (sort of) written in Rust that downloads files. I have a plan to make a package manager in Rust in the future!
 
 License GPLv3+: GNU GPL version 3 or later
