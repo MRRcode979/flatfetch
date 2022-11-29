@@ -7,7 +7,6 @@ use request_sender::*;
 use std::thread;
 use clap::{App, Arg};
 
-#[tokio::main(worker_threads = 12)]
 async fn main() {
 let matches = App::new("FlatFetch")
 // Might use yaml instead in future versions
