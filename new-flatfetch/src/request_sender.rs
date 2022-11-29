@@ -1,9 +1,8 @@
 extern crate clap;
 extern crate tokio;
 extern crate reqwest;
-extern crate owo_colors;
 
-use owo_colors::OwoColorize;
+use colored::Colorize;
 use indicatif::{ProgressBar, ProgressStyle};
 use reqwest::Client;
 
