@@ -11,7 +11,7 @@ type Result<T> = std::result::Result<T, Box<dyn std::error::Error + Send + Sync>
 pub async fn fetch_url(url: &str) -> Result<()> {    
     let bar = ProgressBar::new(5);
     bar.set_style(ProgressStyle::default_bar()
-    .template("[{elapsed_precise}] {bar:40.cyan/blue} {pos:>7}/{len:7} {msg}")
+    .template("[{elapsed_precise}] {bar:40.cyan/blue} {pos:>7}/{len:7} {msg}")?
     .progress_chars("█ "));
     let res = Client::new()
     .get(url)
